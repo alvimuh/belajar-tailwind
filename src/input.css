@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-input{
+    @apply w-full border text-slate-600 outline-none text-base py-2 px-3 rounded-lg;
+}
+.form-label{
+    @apply text-sm font-medium text-slate-700;
+}

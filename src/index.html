@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="flex p-8 h-screen">
+        <div class="w-full md:w-2/5">
+            <img class="mx-auto mt-14 md:mx-0 md:mt-0" src="../dist/img/logo.svg" alt="logo">
+            <div class="h-full flex flex-row items-center">
+                <div class="max-w-[360px] mx-auto px-6 py-14">
+                    <h1 class="text-4xl text-slate-800 font-bold mb-2">NFT Access</h1>
+                    <p class="text-sm text-slate-500 font-normal">Please fill your detail to access your account.</p>
+                    <form class="mt-14">
+                        <div>
+                            <label class="form-label">Email</label>
+                            <input class="form-input" type="email" name="email" id="emails">
+                        </div>
+                        <div class="mt-5">
+                            <label class="form-label">Password</label>
+                            <input class="form-input" type="password" name="password" id="password">
+                        </div>
+                        <div class="flex justify-between mt-5 items-center">
+                            <div>
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember" class="text-sm font-medium ml-1"> Remember me</label><br>
+                            </div>
+                            <a href="#" class="text-sm font-medium text-brand-primary">Forgot Password</a>
+                        </div>
+                        <button class="mt-8 rounded-lg text-base font-medium w-full bg-brand-primary py-3 text-white">
+                            Sign in
+                        </button>
+                        <button class="mt-4 rounded-lg text-base font-medium w-full bg-brand-primary py-3 text-white">
+                            Sign in with Google
+                        </button>
+                        <!-- <div>
+                            Don’t have an account? <a href="#">Sign up</a>
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="w-3/5 h-full hidden md:block">
+            <div class="h-full bg-brand-light rounded-[40px]">
+                <img class="h-full mx-auto" src="../dist/img/featured-img.png" alt="login">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
