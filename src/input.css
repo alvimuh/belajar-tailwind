@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .form-input{
-    @apply w-full border text-slate-600 outline-none text-base py-2 px-3 rounded-lg;
+    @apply w-full border focus:border-brand-primary text-slate-600 outline-none text-base py-2 px-3 rounded-lg;
 }
 .form-label{
     @apply text-sm font-medium text-slate-700;
